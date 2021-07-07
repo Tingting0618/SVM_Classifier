@@ -3,7 +3,6 @@
 #### Content Includes:
 - Support Vector Machine (SVM) classifier
 - KNeighbors (KNN) classifier
-- Confusion matrix
 
 This repo is my learning notebook following the book:
 Hands-On Machine Learning with
