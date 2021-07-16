@@ -3,10 +3,14 @@
 #### Content Includes:
 - Support Vector Machine (SVM) classifier
   - Linear SVM Classification
-    - hard margin classification (not working well when there are outliers) soft margin classification (not working well when classes are not linearly separable)
+    - hard margin classification (not working well when there are outliers) 
+    - soft margin classification (not working well when classes are not linearly separable)
   - Nonlinear SVM Classification
-  - Polynomial Kernel
-  - Gaussian RBF Kernel 
+    - One approach to handling nonlinear datasets is to add more features, such as polynomial features; in some cases this can result in a linearly separable dataset.
+    - That said, at a low polynomial degree, this method cannot deal with very complex datasets, and with a high polynomial degree it creates a huge number of features, making the model too slow.
+  - Fortunately, the kernel trick makes it possible to get the same result as if you had added many polynomial features, even with very high-degree polynomials, without actually having to add them.
+    - Polynomial Kernel
+    - Gaussian RBF Kernel 
 - KNeighbors (KNN) classifier
 
 This repo is my learning notebook following the book:
