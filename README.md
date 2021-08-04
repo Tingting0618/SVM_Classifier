@@ -5,6 +5,7 @@
   - Linear SVM Classification
     - hard margin classification (not working well when there are outliers) 
     - soft margin classification (not working well when classes are not linearly separable)
+       - hyperparameters C is controling the balance between keeping the street as large as possible and limiting the margin violations. If overfit, then try to reduce C. 
   - Nonlinear SVM Classification
     - One approach to handling nonlinear datasets is to add more features, such as polynomial features; in some cases this can result in a linearly separable dataset.
     - That said, at a low polynomial degree, this method cannot deal with very complex datasets, and with a high polynomial degree it creates a huge number of features, making the model too slow.
