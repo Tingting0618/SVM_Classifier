@@ -3,6 +3,8 @@
 #### Content Includes:
 - Support Vector Machine (SVM) classifier
 - SVMs are sensitive to the feature scales
+- Unlike Logistic Regression classifiers, SVM classifiers do not output probabilities for each class.
+
   - Linear SVM Classification
     - hard margin classification (not working well when there are outliers) 
     - soft margin classification (not working well when classes are not linearly separable)
