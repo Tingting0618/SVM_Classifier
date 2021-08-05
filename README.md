@@ -19,10 +19,10 @@
 
 **Concept:**
 
-- start with a dataset with known data/label 
-- use PCA to project features into PC1 and PC2
-- import a new data, count what the nearest k neighbors' clusters
-- the highest vote will become the new cluster for that new obs
+- Start with a dataset with known data/label 
+- Use PCA to project features into PC1 and PC2
+- Import a new data, count what the nearest k neighbors' clusters
+- The highest vote will become the new cluster for that new obs
 
 **Requirements for kNN**
 - Generally, k gets decided on the square root of the number of data points. But a large k value has benefits which include reducing the variance due to the noisy data; the side effect being developing a bias due to which the learner tends to ignore the smaller patterns which may have useful insights
