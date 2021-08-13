@@ -26,7 +26,7 @@
 
 **Requirements for kNN**
 - Generally, k gets decided on the square root of the number of data points. But a large k value has benefits which include reducing the variance due to the noisy data; the side effect being developing a bias due to which the learner tends to ignore the smaller patterns which may have useful insights
-- Data Normalization - It is to transform all the feature data in the same scale (0 to 1) else it will give more weightage to the data which is higher in value irrespective of scale/unit.
+- Data Normalization - It is important to transform all the feature data in the same scale (0 to 1) else it will give more weight to the data which is higher in value of scale/unit.
 - Installation of “Class” library to implement in R.
 - More neighbors means less impacted by noise, but could miss smaller patterns/clusters.
 - Parameter tuning (k, i.e., how many neighbors to look at) 
